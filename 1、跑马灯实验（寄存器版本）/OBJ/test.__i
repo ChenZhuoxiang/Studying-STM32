@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWEAR
+-I C:\Users\Administrator\Desktop\STM32学习进程\跑马灯实验（寄存器版本）\USER\RTE
+-I E:\keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I E:\keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD
+-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d "test.c"
